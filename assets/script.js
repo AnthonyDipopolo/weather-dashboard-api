@@ -1,3 +1,4 @@
+// Global variables
 var apiKey = 'b745135e4607b89aed48f6470c055a10';
 var apiUrl = 'https://api.openweathermap.org/data/2.5';
 
