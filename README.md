@@ -7,7 +7,7 @@ This application is used to diplau the forcast and weather for the city that the
 
 ## Usage
 
-
+https://anthonydipopolo.github.io/weather-dashboard-api/
 
 ![website screenshot](./assets/screenshots/Screen%20Shot%202023-06-19%20at%209.13.26%20PM.png)
 ![website screenshot](./assets/screenshots/Screen%20Shot%202023-06-19%20at%209.14.37%20PM.png)
