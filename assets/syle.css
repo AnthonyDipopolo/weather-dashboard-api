@@ -1,0 +1,102 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  h1 {
+    font-size: 28px;
+    margin-bottom: 20px;
+    background-color: cadetblue;
+    color: antiquewhite;
+    text-align: center;
+  }
+  
+  form {
+    margin-bottom: 20px;
+  }
+  
+  input[type="text"] {
+    width: 20%;
+    padding: 10px;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    font-size: 16px;
+    background-color: #4285f4;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .weather-container {
+    margin-bottom: 20px;
+  }
+  
+  .current-weather {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .current-weather h2 {
+    font-size: 24px;
+    margin-right: 10px;
+  }
+  
+  .current-weather p {
+    margin: 5px 0;
+  }
+  
+  .forecast-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  
+  .forecast-item {
+    border: 1px solid #ccc;
+    padding: 10px;
+  }
+  
+  .search-history {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    cursor: pointer;
+  }
+  
+  .search-history div {
+    padding: 5px 10px;
+    background-color: #f2f2f2;
+    border-radius: 5px;
+  }
+  
+  .search-history div:hover {
+    background-color: #ddd;
+  }
+
+  .search-history:hover {
+    background-color: #4285f4;
+  }
+
+  .search-history div {
+  padding: 5px 10px;
+  background-color: #f2f2f2;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+#search-history-container :hover{
+    cursor: pointer;
+}
+
+  
